@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "fuel_delivery_app_service_provider",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fuel_delivery_app_service_provider (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fuel_delivery_app_service_provider (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "multi_image_picker_view-1.0.2",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "multi_image_picker_view-1.0.2 (profile mode)",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "multi_image_picker_view-1.0.2 (release mode)",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "example",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2\\example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "custom_packages\\multi_image_picker_view-1.0.2\\example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

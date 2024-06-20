@@ -11,6 +11,18 @@ class ServerFailure extends Failure {
   const ServerFailure(String message) : super(message);
 }
 
+class PdfUploadFailure extends Failure {
+  const PdfUploadFailure(String message) : super(message);
+}
+
+class ImageUploadFailure extends Failure {
+  const ImageUploadFailure(String message) : super(message);
+}
+
+class DataUpdateFailure extends Failure {
+  const DataUpdateFailure(String message) : super(message);
+}
+
 class ConnectionFailure extends Failure {
   const ConnectionFailure(String message) : super(message);
 }
@@ -26,6 +38,7 @@ class InvalidEmailFailure extends Failure {
 class UserNotFoundFailure extends Failure {
   const UserNotFoundFailure(String message) : super(message);
 }
+
 class UserAlradyExistFailure extends Failure {
   const UserAlradyExistFailure(String message) : super(message);
 }
@@ -43,7 +56,8 @@ class NetworkRequestFailedFailure extends Failure {
 }
 
 class AccountExistsWithDifferentCredentialFailure extends Failure {
-  const AccountExistsWithDifferentCredentialFailure(String message) : super(message);
+  const AccountExistsWithDifferentCredentialFailure(String message)
+      : super(message);
 }
 
 class OperationNotAllowedFailure extends Failure {
@@ -53,6 +67,7 @@ class OperationNotAllowedFailure extends Failure {
 class InvalidCredentialFailure extends Failure {
   const InvalidCredentialFailure(String message) : super(message);
 }
+
 class UnknownFailure extends Failure {
   const UnknownFailure(String message) : super(message);
 }

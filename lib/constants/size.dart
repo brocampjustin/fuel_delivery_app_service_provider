@@ -10,6 +10,12 @@ class AppSize {
   static double phoneFeildHeigh = 65;
   static double textFeeldMaxHight = 70;
 
-  static double gap10 = 10;
-  static double gap20 = 20;
+  static const double gap10 = 10;
+  static const double gap20 = 20;
+  static const double gap30 = 30;
+  static const double gap40 = 40;
+  static const double gap80 = 40;
+  static const double gap132 = 132;
+
+  static const double textFeildWidth2 = 450;
 }

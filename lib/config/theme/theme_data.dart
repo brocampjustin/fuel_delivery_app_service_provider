@@ -8,22 +8,22 @@ import '../../constants/color/colorpellet.dart';
 class AppTheme {
   static ThemeData get lightTheme {
     return ThemeData(
-        primaryColorLight: ColorPellet.primaryColor,
+        buttonTheme: ButtonThemeData(buttonColor: Colors.red),
+        primaryColorLight: colorPellet.primaryColor,
         elevatedButtonTheme:
             ElevatedButtonThemeData(style: AppButtonStyle.button1),
         brightness: Brightness.light,
-        primaryColor: ColorPellet.primaryColor,
-        colorScheme:
-            const ColorScheme.light(background: ColorPellet.whiteColor),
-        scaffoldBackgroundColor: ColorPellet.whiteColor,
+        primaryColor: colorPellet.primaryColor,
+        colorScheme: ColorScheme.light(background: colorPellet.whiteColor),
+        scaffoldBackgroundColor: colorPellet.whiteColor,
         primaryTextTheme: AppTextTheme.lightTextTheme,
         textTheme: AppTextTheme.lightTextTheme,
         appBarTheme: AppBarTheme(
             elevation: 0,
-            backgroundColor: ColorPellet.whiteColor,
+            backgroundColor: colorPellet.whiteColor,
             titleTextStyle: AppTextStyles.titleMedium),
-        bottomSheetTheme: const BottomSheetThemeData(
-            backgroundColor: Colors.white, shadowColor: ColorPellet.blackColor),
+        bottomSheetTheme: BottomSheetThemeData(
+            backgroundColor: Colors.white, shadowColor: colorPellet.blackColor),
         bottomNavigationBarTheme: const BottomNavigationBarThemeData(
           backgroundColor: Colors.white,
         ));

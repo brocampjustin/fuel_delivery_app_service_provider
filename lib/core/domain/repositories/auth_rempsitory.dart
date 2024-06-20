@@ -32,4 +32,8 @@ abstract class AuthRepository {
   Future<void> logOut();
   Future<Either<Failure, UserCredential>> googleSingin(
       {required String providerId, required String signInMethod});
+Future<Either<Failure, bool>> updateUserData({ required Map<String, dynamic> updateData,
+    required String uid,});
+
 }
+

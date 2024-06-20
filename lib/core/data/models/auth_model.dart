@@ -12,12 +12,17 @@ class UserModel extends UserEntity with EquatableMixin {
         required String email,
       required String password,
       required String phoneNumber,
-      required String name}):super(email: email, name: name, password: password, phoneNumber: phoneNumber,uid: uid);
+      required String name,
+      bool? isRegisterd,
+      bool? isAccepted}):super(email: email, name: name, password: password, phoneNumber: phoneNumber,uid: uid);
       
 
 
   @override
   List<Object?> get props => [email, password, phoneNumber, name,uid];
+
+
+
 
 
 
